@@ -4,16 +4,16 @@ kind: Route
 metadata:
   creationTimestamp: null
   labels:
-    app: nfiiargo
-  name: nfiiargo
-  namespace: nfiiargo
+    app: bgd
+  name: bgd
+  namespace: bgd
 spec:
-  host: "nfiiargo.apps.ocp-dev.nfii.com"
+  host: "bgd.apps.ocp-dev.nfii.com"
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: nfiiargo
+    name: bgd
     weight: 100
 status:
   ingress:
