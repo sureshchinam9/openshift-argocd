@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: demo
-  namespace: nfiiargo
+  namespace: bgd
   annotations:
    volume.beta.kubernetes.io/storage-class: demo-sc
 spec:
