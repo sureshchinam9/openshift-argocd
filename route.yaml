@@ -1,0 +1,22 @@
+  
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nfiiargo
+  name: nfiiargo
+  namespace: nfiiargo
+spec:
+  host: "nfiiargo.apps.ocp-dev.nfii.com"
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: nfiiargo
+    weight: 100
+status:
+  ingress:
+  - conditions:
+    - status: "True"
+      type: Admitted
