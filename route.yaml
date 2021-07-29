@@ -6,14 +6,14 @@ metadata:
   labels:
     app: bgd
   name: bgd
-  namespace: bgd
+  namespace: bgd1
 spec:
-  host: "bgd.apps.ocp-dev.nfii.com"
+  host: "bgd.apps.ocp-qa.nfii.com"
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: bgd
+    name: bgd1
     weight: 100
 status:
   ingress:
