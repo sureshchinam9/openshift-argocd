@@ -5,7 +5,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: bgd
-  name: bgd
+  name: bgd1
 spec:
   ports:
   - port: 8080
