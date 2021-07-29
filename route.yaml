@@ -8,7 +8,7 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
-  host: "bgd.apps.ocp-dev.nfii.com"
+  host: "bgd.apps.qa-dev.nfii.com"
   port:
     targetPort: 8080
   to:
