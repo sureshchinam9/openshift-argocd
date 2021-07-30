@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: demo
-  namespace: bgd1
+  namespace: bgd
   annotations:
    volume.beta.kubernetes.io/storage-class: dynamic-nfs
 spec:
