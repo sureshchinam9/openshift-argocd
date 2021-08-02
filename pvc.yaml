@@ -4,7 +4,7 @@ metadata:
   name: demo
   namespace: bgd
   annotations:
-   volume.beta.kubernetes.io/storage-class: nfs-storage
+   volume.beta.kubernetes.io/storage-class: dynamic-nfs
 spec:
   accessModes:
     - ReadWriteOnce
