@@ -3,5 +3,9 @@ date:
   mykey: myval
 kind: ConfigMap
 metadata:
+  labels:
+     app.kubernetes.io/instance: bgd
+  creationTimestamp: null
   name: bgd
   namespace: bgd
+
