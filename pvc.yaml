@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: demo
-  namespace: nfiitest
+  namespace: bgd
   annotations:
    volume.beta.kubernetes.io/storage-class: nfs-storage
 spec:
