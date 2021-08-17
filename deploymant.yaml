@@ -4,23 +4,23 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: bgd
-  name: bgd
+    app: nfiitest
+  name: nfiitest
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bgd
+      app: nfiitest
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: bgd
+        app: nfiitest
     spec:
       containers:
       - image: quay.io/redhatworkshops/bgd:latest
-        name: bgd
+        name: nfiitest
         env:
         - name: COLOR
           value: "green"
