@@ -4,13 +4,13 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: nfiitest
-  name: nfiitest
+    app: bgd
+  name: bgd
 spec:
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
-    app: nfiitest
+    app: bgd
 ---
