@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: demo01
-  namespace: nfiitest
+  namespace: bgd
   labels:
      app.kubernetes.io/instance: bgd
 data:
